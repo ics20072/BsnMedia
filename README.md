@@ -1,6 +1,6 @@
 # BSN MEDIA
 
-BSN MEDIA is an intra-buissness social network that allows
+<h4>BSN MEDIA is an intra-buissness social network that allows
 members of a business to communicate,
 organize, be informed and express their point of view
 in matters concerning the company and their colleagues.
@@ -10,73 +10,103 @@ team to have remote communication, organization and
 cooperation, thus avoiding personal contact, which in
 many cases can be time consuming, or even
 impossible. The combination of features offered by BSN
-Media make the user work experience much more enjoyable.
+Media make the user work experience much more enjoyable.<h4>
+<h4>Created as part of the course "Software Technology" (University of Macedonia - Applied Informatics, academic year 2020-2021, 4th semester), from the Group #9, which consists of the following students:.</h4>
+<ul>
+	<li><b><i>Charakopoulos Minas - Theodoros</i></b></li>
+	<li><b><i>Lougaris Dionisios</i></b></li>
+	<li><b><i>Machairas Panagiotis</i></b></li>
+	<li><b><i>Stefou Georgios Ioannis</i></b></li>
+	<li><b><i>Konstantinidi Styliana</i></b></li>
+	<li><b><i>Kosmidou Eleni</i></b></li>
+	<li><b><i></i>Mazaraki Eleni</b></li>
+	<li><b><i></i>Melissanidou Kostantina </b></li>
+	<li><b><i>Mertzanis Antonios</i></b></li>
+	<li><b><i>Nanou Eleftheria</i></b></li>
+</ul>
+
+<h4>Note: Part of our work deliverables were the Software Requirements Description Document, the Software Design Description Document, as well as an analysis of our software metrics after completion. All of these are in the repository folders.</h4>
+
+# How to use it?
 
 The users who will use the program, are members of a
 company. Depending on their position in its hierarchy, they are divided into
-employee, chief and boss qualities. Each user regardless of his status,
-has the ability to exchange messages and make connections with others
-users, post posts and edit personal and public information and much more.
-For example, chiefs create groups, consisting of employees,
-to which they assign projects. These are evaluated by the boss,thus giving an idea of ​​the result and the
-collaboration of the Group for the Project assigned to it.Finally, every user must have
-simple computer skills as well as social networking programs.
-
-Description:
-
-There were many options for the programming language that could be used
-to create and develop the application, including Java,
-C and Python. BSN Media, however, focuses on Java, as this
-language offers more possibilities in the development of object-oriented programming and graphical interface.
-We also used Git, which is the most popular control system
-publishing, a website for developers hosting and sharing
-their code.
-
-The first, and perhaps most important class we will create is User, which
-is the default entry point for any web application. The rest classes are more 
-or less assosiated with User ,the Company or a Group.
-
-
-Manual:
+<b>Employee</b>, <b>Chief</b> and <b>Boss</b> qualities. Each user regardless of his status,
+has the ability to exchange messages (encrypted stored conversations with a shifting Ceaser cipher algorithm) and make connections with others
+users, post posts, edit personal and public information and much more.
+For example, chiefs create groups, consisting of employees, to which they assign projects. These are evaluated by the boss, thus giving an idea of the result and the
+collaboration of the Group for the Project assigned to it. In addition there is the possibility of 
+supporting BSN Media users through the Help page which has FAQs and a contact form.<br>
 A potential BSN Media user to create an account must know the Verification code which can only
-be given by the Boss. The employee entity in BSN Media undertakes projects by the executives(chiefs)
-which together with a group he carries out and then this group is evaluated by the Boss. Users, regardless of privacy, 
-can chat securely (encrypted stored conversations with a shifting Ceaser cipher algorithm).In addition there is the possibility of 
-supporting BSN Media users through the Help page which has FAQs and a contact form.
-(The peculiarity of this function is that in order to send a support email from our company to the user, the user must be
-locally connected to our company email. Something impractical and impossible which will be renewed along with other details in the next
-version of BSN Media.
+be given by the Boss.
 
+<h4>Frequently asked questions:</h4>
+<ol>
+	<li>Is BSN Media accessible online?</li>
+	<ul><li>In this version BSN Media runs locally on a computer and is not yet available online.</li></ul>
+	<br>
+	<li>Can there be a Boss or a Company on BSN Media?</li>
+	<ul><li>In this version BSN Media refers to a business with one manager..</li></ul>
+	<br>
+	<li>Can the Greek alphabet be used in BSN Media?</li>
+	<ul><li>In this version, BSN Media can not encrypt Greek characters, so it is not recommended.</li></ul>
+</ol>
 
-Frequently asked questions :
+# Some screens from the App
+<h4>Login to BSN Media - Starter screen</h4>
+<img src="screenshots-github/ui/ui-1.png" width="750" />
+<hr width="30%">
 
-1.Is BSN Media accessible online?
-	- In this version BSN Media runs locally on a computer and is not yet available online.
+<h4>Create new Account</h4>
+<img src="screenshots-github/ui/ui-2.png" width="750" />
+<hr width="30%">
 
-2.Can there be a Boss or a Company on BSN Media?
-	- In this version BSN Media refers to a business with one manager.
+<h4>Retrieve your account</h4>
+<img src="screenshots-github/ui/ui-3.png" width="750" />
+<hr width="30%">
 
-3.Can the Greek alphabet be used in BSN Media?
-	- In this version, BSN Media can not encrypt Greek characters, so it is not recommended.
+<h4>Edit Account information</h4>
+<img src="screenshots-github/ui/ui-5.png" width="750" />
+<hr width="30%">
 
+<h4>Create Group and Project</h4>
+<img src="screenshots-github/ui/ui-6.png" width="750" />
+<hr width="30%">
 
+<h4>Conversations</h4>
+<img src="screenshots-github/ui/ui-12.png" width="750" />
+<hr width="30%">
 
+<h4>BSN Support</h4>
+<img src="screenshots-github/ui/ui-13.png" width="750" />
+<hr width="30%">
 
-Team members (Group 9):
-1.  Minas-Theodoros Charakopoulos
-2.  DIonisios Lougaris
-3.  Panagiotis Machairas
-4.  Antionios Mertzanis
-5.  Giorgos-Giannis Stefou
-6.  Eleni Kosmidou
-7.  Styliana Konstantinidi
-8.  Eleni Mazaraki
-9.  Eleftheria Nanou
-10. Kostantina Melissanidou
+# Where is the data stored?
+<h4>Binary file: </h4>All user and company data, except messages.
+<h4>Text file .txt: </h4>All conversations are stored there encrypted.
 
+# Installation
+<ul>
+	<li><b>You must have the java 1.6.0+ version installed</b></li>
+</ul>
 
-
-
-
-
-© 2021 All Rights Reserved.
+<h4>Step 1: Move to https://github.com/DionisisLougaris/BsnMedia/releases/tag/v1.0</h4>
+<h4>Step 2: Click to download "BSN_setup.exe"</h4>
+<h4>Steps 3,4</h4>
+<div float="left">
+  <img src="screenshots-github/steps/1.png" width="410" />
+  <img src="screenshots-github/steps/2.png" width="410" />
+</div>
+<hr width="30%">
+<h4>Steps 5,6</h4>
+<div float="left">
+  <img src="screenshots-github/steps/3.png" width="410" />
+  <img src="screenshots-github/steps/4.png" width="410" />
+</div>
+<hr width="30%">
+<h4>Steps 7,8</h4>
+<div float="left">
+  <img src="screenshots-github/steps/5.png" width="410" />
+  <img src="screenshots-github/steps/6.png" width="410" />
+</div>
+<hr width="30%">
