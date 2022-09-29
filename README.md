@@ -94,19 +94,19 @@ be given by the Boss.
 <h4>Step 2: Click to download "BSN_setup.exe"</h4>
 <h4>Steps 3,4</h4>
 <div float="left">
-  <img src="screenshots-github/steps/1.png" width="450" />
-  <img src="screenshots-github/steps/2.png" width="450" />
+  <img src="screenshots-github/steps/1.png" width="410" />
+  <img src="screenshots-github/steps/2.png" width="410" />
 </div>
 <hr width="30%">
 <h4>Steps 5,6</h4>
 <div float="left">
-  <img src="screenshots-github/steps/3.png" width="450" />
-  <img src="screenshots-github/steps/4.png" width="450" />
+  <img src="screenshots-github/steps/3.png" width="410" />
+  <img src="screenshots-github/steps/4.png" width="410" />
 </div>
 <hr width="30%">
 <h4>Steps 7,8</h4>
 <div float="left">
-  <img src="screenshots-github/steps/5.png" width="450" />
-  <img src="screenshots-github/steps/6.png" width="450" />
+  <img src="screenshots-github/steps/5.png" width="410" />
+  <img src="screenshots-github/steps/6.png" width="410" />
 </div>
 <hr width="30%">
